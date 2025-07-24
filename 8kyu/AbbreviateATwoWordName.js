@@ -23,7 +23,7 @@
 */
 
 /*   # Intuition
-     My intial thoughts are to... 
+     My initial thoughts are to... 
      -use the .split() method on the input string,
      -use the toUpperCase() method on the split segments,
      -return the segments concatenated with '.'

@@ -22,15 +22,14 @@
 */
 
 /*   # Intuition
-     My intial thoughts are to loop through and increment 1 n times, and return the result. 
+     My initial thoughts are to loop through and increment 1 n times, and return the result. 
 */
-
 
 //   # Code
 var summation = function (num) {
- let MySum = 0;
+  let MySum = 0;
   for (let i = 0; i <= num; i++) {
-    (MySum) += i;
+    MySum += i;
   }
-    return MySum;
-}
+  return MySum;
+};

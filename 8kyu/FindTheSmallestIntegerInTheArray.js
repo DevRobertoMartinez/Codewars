@@ -20,7 +20,7 @@
 */
 
 /*   # Intuition
-     My intial thoughts are to... 
+     My initial thoughts are to... 
      * set a variable (purpose is to hold the smallest integer) - SmallestInt equal to first member of array
      * loop through the array
      * update the SmallestInt if current array member is smaller than SmallestInt
@@ -28,14 +28,13 @@
      
 */
 
-
 //   # Code
 function findSmallestInt(arr) {
   let SmallestInt = arr[0];
-    for (let i=0; i < arr.length; i++){
-      if (SmallestInt > arr[i]) {
-        (SmallestInt = arr[i]);
-      }
+  for (let i = 0; i < arr.length; i++) {
+    if (SmallestInt > arr[i]) {
+      SmallestInt = arr[i];
     }
-    return (SmallestInt);
+  }
+  return SmallestInt;
 }

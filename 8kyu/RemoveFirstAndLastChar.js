@@ -41,20 +41,15 @@ Remove First and Last Character
 
  */
 
-
-
-
 /*   # Intuition
-     My intial thoughts are to slice the input string,
+     My initial thoughts are to slice the input string,
      and save the result in a new string variable, 
      and return the new string */
 
-
 //   # Code
 
-function removeChar(str){
-  (str.length >= 2)
-  const ResultStr = str.slice(1,-1);
-  return ResultStr
-
-};
+function removeChar(str) {
+  str.length >= 2;
+  const ResultStr = str.slice(1, -1);
+  return ResultStr;
+}

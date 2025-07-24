@@ -11,14 +11,13 @@
 */
 
 /*   # Intuition
-     My intial thoughts are to loop through the input, square each input, and add to a result variable. */
-
+     My initial thoughts are to loop through the input, square each input, and add to a result variable. */
 
 //   # Code
-function squareSum(numbers){
-let result = 0;
+function squareSum(numbers) {
+  let result = 0;
   for (let i = 0; i < numbers.length; i++) {
-  result += numbers[i] **2
-  };
-  return result
+    result += numbers[i] ** 2;
+  }
+  return result;
 }

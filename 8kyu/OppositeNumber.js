@@ -18,11 +18,10 @@
 */
 
 /*   # Intuition
-     My intial thoughts are to... */
-
+     My initial thoughts are to... */
 
 //   # Code
 
 function opposite(number) {
-  return (number * -1)
+  return number * -1;
 }

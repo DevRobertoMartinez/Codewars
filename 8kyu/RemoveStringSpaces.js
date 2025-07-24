@@ -19,13 +19,12 @@
 */
 
 /*   # Intuition
-     My intial thoughts are to... 
+     My initial thoughts are to... 
      string.replaceAll(" ", "")
      or String.split(' ').join('')
 */
 
-
 //   # Code
-function noSpace(x){
-return x.replaceAll(" ", "")
+function noSpace(x) {
+  return x.replaceAll(" ", "");
 }

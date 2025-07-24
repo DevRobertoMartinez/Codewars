@@ -22,12 +22,11 @@
 */
 
 /*   # Intuition
-     My intial thoughts are to... 
+     My initial thoughts are to... 
      * cast the input as a string
 */
 
-
 //   # Code
-const stringToNumber = function(str){
+const stringToNumber = function (str) {
   return Number(str);
-}
+};

@@ -11,8 +11,7 @@
 */
 
 /*   # Intuition
-     My intial thoughts are to... 
+     My initial thoughts are to... 
 */
-
 
 //   # Code

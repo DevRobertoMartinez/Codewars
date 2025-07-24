@@ -19,23 +19,22 @@
 */
 
 /* Sample function: 
-   function countSheeps(sheep) {
+   function countsheep(sheep) {
      // TODO
    } 
 */
 
 /*   # Intuition
-     My intial thoughts are to... 
+     My initial thoughts are to... 
      just loop through it and return the total
      or 
      simply use the array filter method
-     use a call back function using the boolean constuctor (.filter(Boolean)), 
+     use a call back function using the boolean constructor (.filter(Boolean)), 
      and apply the .length method to get the total
 
 */
 
-
 //   # Code
-function countSheeps(arrayOfSheep) {
-  return arrayOfSheep.filter(Boolean).length
- }
+function countsheep(arrayOfSheep) {
+  return arrayOfSheep.filter(Boolean).length;
+}
