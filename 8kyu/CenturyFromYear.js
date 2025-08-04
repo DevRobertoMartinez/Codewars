@@ -26,7 +26,7 @@
 
 /*   # Intuition
      My initial thoughts are to...
-     initilize the loop variable to 1, 
+     initialize the loop variable to 1, 
      use a while loop, 
      set the condition to (while the input year is greater than 100)
      and decrement the input year by 100 each loop

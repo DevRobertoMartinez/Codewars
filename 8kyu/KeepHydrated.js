@@ -28,7 +28,7 @@
      define the water needed rate (0.5)
      take the input (hours)
      multiply (hours) by (water needed) and assign to a result variable
-     dound the vaiable 
+     round the variable
      return the variable
 
 */
